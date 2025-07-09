@@ -9,7 +9,7 @@ services:
     ports:
       - "5001:5001"
     environment:
-      - MONGO_URI=mongodb+srv://astro:astro@cluster0.alvokl5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - env
 
     networks:
       - app-network
